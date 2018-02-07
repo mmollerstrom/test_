@@ -92,6 +92,8 @@ GEM
     factory_bot_rails (4.8.2)
       factory_bot (~> 4.8.2)
       railties (>= 3.0.0)
+    faker (1.7.3)
+      i18n (~> 0.5)
     ffi (1.9.21)
     gherkin (5.0.0)
     globalid (0.4.1)
@@ -228,6 +230,7 @@ DEPENDENCIES
   cucumber-rails
   database_cleaner
   factory_bot_rails
+  faker
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   pg (~> 0.18)
